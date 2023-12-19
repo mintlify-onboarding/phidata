@@ -1,0 +1,101 @@
+{
+    "name": "Phidata",
+    "logo": {
+      "light": "/logo.svg",
+      "dark": "/logo.svg"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#6EE7B7",
+      "light": "#78F7C4",
+      "dark": "#6EE7B7"
+    },
+    "topbarCtaButton": {
+      "name": "Log In",
+      "url": "https://www.phidata.com/signin"
+    },
+    "modeToggle": {
+        "default": "dark",
+        "isHidden": true
+    },
+    "anchors": [
+      {
+        "name": "Support",
+        "icon": "discord",
+        "url": "https://discord.com/invite/4MtYHHrgA8"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "url": "https://github.com/phidatahq/phidata"
+      }
+    ],
+    "navigation": [
+      {
+        "group": "Getting Started",
+        "pages": [
+            "page",
+            "basics/page"
+        ]
+      },
+      {
+        "group": "Examples",
+        "pages": [
+            "examples/rag-llm-app/page",
+            "examples/auto-llm-app/page",
+            "examples/multimodal-llm-app/page",
+            "examples/junior-de/page",
+            "examples/snowflake-llm/page"
+        ]
+      },
+      {
+        "group": "Building Blocks",
+        "pages": [
+            "blocks/page",
+            "blocks/conversations/page",
+            "blocks/assistants/page",
+            "blocks/tasks/page",
+            "blocks/knowledge-base/page",
+            "blocks/storage/page",
+            "blocks/memory/page",
+            "blocks/agents/page",
+            "blocks/llms/page",
+            "blocks/apps/page",
+            "blocks/resources/page",
+            "blocks/workspaces/page"
+        ]
+      },
+      {
+        "group": "Day 2",
+        "pages": [
+            "day-2/page",
+            "day-2/git-repo/page",
+            "day-2/new-users/page",
+            "day-2/dev-app/page",
+            "day-2/production-app/page",
+            "day-2/python-libraries/page",
+            "day-2/secrets/page",
+            "day-2/env-vars/page",
+            "day-2/database-tables/page",
+            "day-2/format-and-validate/page",
+            "day-2/ci-cd/page",
+            "day-2/domain-https/page",
+            "day-2/ssh-access/page"
+        ]
+      },
+      {
+        "group": "Templates",
+        "pages": [
+            "templates/llm-app/page",
+            "templates/llm-api/page",
+            "templates/streamlit-app/page",
+            "templates/django-app/page"
+        ]
+      }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/phidatahq",
+          "linkedin": "https://www.linkedin.com/company/phidatahq/"
+      }
+  }
